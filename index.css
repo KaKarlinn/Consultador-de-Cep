@@ -10,20 +10,16 @@ body {
     height: 90vh;
     width: 97vw ;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
 }
 
 #conteudo {
     background-color: #2f3438;
-    height: 50vh;
+    height: 55vh;
     width: 40vw;
     border-radius: 20px;
     padding: 20px;
     border: 2px solid rgba(255, 255, 255, 0.199);
-    
-    
-
 }
 
 #input {
@@ -31,9 +27,7 @@ body {
     height: 30px;
     border-radius: 5px;
     text-align: left;
-    
-    
-    
+    padding-left: 7px; 
 }
 
 #button {
@@ -61,5 +55,11 @@ body {
 #dados {
     border: 2px solid rgba(255, 255, 255, 0.199);
     background-color: #42484e6c;
-    height: 200px;
+    height: 250px;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 2px; 
+    padding-left: 10px;
 }
