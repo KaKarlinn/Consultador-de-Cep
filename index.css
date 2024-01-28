@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(88, 86, 86);
+    height: 97vh;
+    width: 90%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 97vw ;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#conteudo {
+    background-color: #2f3438;
+    height: 50vh;
+    width: 40vw;
+    border-radius: 20px;
+    padding: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.199);
+    
+    
+
+}
+
+#input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    text-align: left;
+    
+    
+    
+}
+
+#button {
+    height: 35px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#tituloDados {
+    color: azure;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#tituloConsulta {
+    color: azure;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 50px;
+    text-align: left;
+}
+
+#dados {
+    border: 2px solid rgba(255, 255, 255, 0.199);
+    background-color: #42484e6c;
+    height: 200px;
+}
